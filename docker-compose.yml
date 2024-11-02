@@ -1,0 +1,13 @@
+services:
+  searchgame_be:
+    image: thuanlp/searchgame_be:latest
+    container_name: searchgame_be
+    ports:
+      - "5000:5000"
+    restart: always
+    networks:
+      - PrviNetwork
+
+networks:
+  PrviNetwork:
+    external: true
