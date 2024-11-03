@@ -1,6 +1,6 @@
 services:
   searchgame_be:
-    image: thuanlp/searchgame_be:latest
+    image: thuanlp/searchgame_be:v1
     container_name: searchgame_be
     ports:
       - "5000:5000"
